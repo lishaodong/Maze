@@ -1,5 +1,7 @@
 Maze
 
+!The current version is not useble, if you are interested, please contact me!
+
 Wish to build an peer-to-peer platform support everything possible, IM, social network, game, or anything else.
 
 The platform will do the routing, tell the user where (IP address and port) the peer he wants to connects are. Based on the address, peers can communicate with each others.

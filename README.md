@@ -20,14 +20,14 @@ This is a prove-of-concept demo, two peers can chat or play chess immediately.
 
 Future Work
 -----------
-+current routing based on bittorrent, with tracker or DHT. For pure
++ current routing based on bittorrent, with tracker or DHT. For pure
 peer-to-peer purpose, we hope DHT only. Current DHT used in bittorrent
 is prosperous, but lack of extensibility. We may hope to proposed our 
 own DHT protocol.
 
-+Build a platform which is extensible and easy to use. Export API only necessary.
++ Build a platform which is extensible and easy to use. Export API only necessary.
 
-+Build some useful and fun Apps.
++ Build some useful and fun Apps.
 
 Developer Needed
 ----------------

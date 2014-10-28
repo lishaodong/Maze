@@ -1,7 +1,6 @@
 Maze
 ======
 
-    !The current version is not useble, if you are interested, please contact me!
 
 Purpose
 -------
@@ -16,7 +15,13 @@ can communicate with each others.
 Based on this, many advanced feature may be added. Like a score system, 
 MazeCoin, distributed DNS, or anything you can imagine.
 
-This is a prove-of-concept demo, two peers can chat or play chess immediately.
+
+Demo
+----
+
+A demo was developed in [MazeDemo](http://github.com/lishaodong/MazeDemo), it
+ was build on Taipei-Torrent to find IP address, and then allow people to chat
+ without any central server.
 
 Future Work
 -----------
@@ -31,6 +36,6 @@ own DHT protocol.
 
 Developer Needed
 ----------------
-If you are interested, please join me and 
+If you are interested, please join me and
 share you thoughts with me.
 

@@ -1,2 +1,4 @@
 deprecated
 .DS_STORE
+*.iml
+trackerlist

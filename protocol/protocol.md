@@ -13,15 +13,10 @@ A peer is a client when it join the network. A peer has a unique ID,
 may be generated as the HASH of its ip address and port. Peers are 
 connected by any kind of topology, Kademelia, chord, or others. 
 
-  type Peer struct{
-   Address string
-   ID string
-  }
-  
+
 ###API
 
-
-+ GetPeer(PeerID string) (Address Peer)
++	GetPeer(PeerID string) (Address Peer)
 
 ##Event
 
@@ -37,11 +32,17 @@ are choosen by specific algrithm depending on the topology of the peers.
 In Kadimelia, these peers may the 10 peers that have the minimum XOR distance 
 to the event ID.
 
+The peers that are responsible for this event will only do the routing stuff, 
+which means tell the address of peers to each other. They will not transfer any 
+information or files as a bridge. The responsibility of verify the signature 
+or some other validation remain with the peers.
+
 ##API
 
-+ GetSubscibers(EventID string) (peers []Peer)
-+ Subscribe(EventID string) (
++	GetSubscibers(EventID string) (peers []Peer)
++	Subscribe(EventID string) (event EventData)
++	Unsubscribe(EventID string)
 
-
-Welcome to join me!
+#Developer Needed
+This is a totally new project. Welcome to join me!
 

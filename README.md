@@ -15,6 +15,9 @@ can communicate with each others.
 Based on this, many advanced feature may be added. Like a score system, 
 MazeCoin, distributed DNS, or anything you can imagine.
 
+Protocol
+---
+The protocol is still in draft, see it [here](https://github.com/lishaodong/Maze/blob/master/protocol/protocol.md)
 
 Demo
 ----
